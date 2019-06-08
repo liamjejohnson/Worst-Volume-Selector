@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+}
+
+.appheader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.knob {
+  position: absolute;
+  top: 30vh;
+  left: 43vw;
+  width: 15vw;
+  height: 15vw;
+  cursor: pointer;
+}
+
+.indicator {
+  /* the white indicator for 0 volume */
+  position: absolute;
+  top: 7vw;
+  left: 35vw;
+  width: 30vw;
+  height: 30vw;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.volumeIndicator {
+  /* the red indicator for current volume */
+  position: absolute;
+  top: 7vw;
+  left: 35vw;
+  width: 30vw;
+  height: 30vw;
+  font-weight: bold;
+  font-size: 4rem;
+  color: red;
+}
+
+.volumeNumber {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  font-size: 10rem;
+  padding-top: 70vh;
+}
